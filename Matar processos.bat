@@ -14,4 +14,10 @@ rem "-" traço pode ser utilizado no lugar do "/"
 
 taskkill /f /t /im Discord.exe
 
+taskkill /f /t /im AnyDesk.exe
+
+taskkill /f /t /im E_S50RPB.EXE
+
+taskkill /f /t /im E_S50STB.EXE
+
 exit
