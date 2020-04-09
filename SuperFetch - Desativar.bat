@@ -1,0 +1,2 @@
+echo off
+start sc stop "SysMain" & sc config "SysMain" start=disabled
