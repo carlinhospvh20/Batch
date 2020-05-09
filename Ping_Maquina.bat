@@ -6,7 +6,6 @@ goto main
 
 :main
 
-echo. 
 echo.
 
 set /p numeroIP=Digite nome Maquina:
