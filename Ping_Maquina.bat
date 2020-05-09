@@ -1,19 +1,20 @@
-echo off
+@echo off
 
-title Fecha o Arquivo GWX.exe a cada 10 seg
-cls
+title Ping 
+
 goto main
 
 :main
 
-echo Aguardando 10 Seg Para Fechar o Programa...
+echo. 
 echo.
 
 set /p numeroIP=Digite nome Maquina:
 
 ping %numeroIP% 
 
-::choice -c r -t 10 -d r >nul
+:: Aguardando 10 Seg Para Fechar o Programa...
+:: choice -c r -t 10 -d r >nul
 
 cls
 
